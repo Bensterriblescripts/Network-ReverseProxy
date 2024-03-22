@@ -1,0 +1,15 @@
+[package]
+name = "nansons-proxy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1.50"
+log = "0.4.14"
+structopt = "0.3.23"
+pingora-core = "0.1.0"
+pingora-http = "0.1.0"
+pingora-proxy = "0.1.0"
+prometheus = "0.13.3"
